@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.nf</groupId>
+    <artifactId>ds-skateboard-community</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>ds-skateboard-community-entity</module>
+        <module>ds-skateboard-community-dao</module>
+        <module>ds-skateboard-community-service</module>
+        <module>ds-skateboard-community-web</module>
+    </modules>
+
+    <dependencyManagement>
+        <dependencies>
+            <!--            用于spring MVC-->
+            <dependency>
+                <groupId>org.springframework</groupId>
+                <artifactId>spring-webmvc</artifactId>
+                <version>5.2.0.RELEASE</version>
+            </dependency>
+            <!--可能要使用到 spring-jdbc 里面的一些类-->
+            <dependency>
+                <groupId>org.springframework</groupId>
+                <artifactId>spring-jdbc</artifactId>
+                <version>5.2.0.RELEASE</version>
+            </dependency>
+            <!-- 事务，spring-jdbc 里面由传递依赖-->
+            <dependency>
+                <groupId>org.springframework</groupId>
+                <artifactId>spring-test</artifactId>
+                <version>5.2.0.RELEASE</version>
+            </dependency>
+            <!--spring-context-->
+            <dependency>
+                <groupId>org.springframework</groupId>
+                <artifactId>spring-context</artifactId>
+                <version>5.2.1.RELEASE</version>
+            </dependency>
+            <!--使用 mybatis-->
+            <dependency>
+                <groupId>org.mybatis</groupId>
+                <artifactId>mybatis</artifactId>
+                <version>3.5.2</version>
+            </dependency>
+            <!--mybatis 和 spring 整合-->
+            <dependency>
+                <groupId>org.mybatis</groupId>
+                <artifactId>mybatis-spring</artifactId>
+                <version>2.0.2</version>
+            </dependency>
+            <!--mysql 数据库驱动-->
+            <dependency>
+                <groupId>mysql</groupId>
+                <artifactId>mysql-connector-java</artifactId>
+                <version>5.1.47</version>
+            </dependency>
+            <!--连接池-->
+            <dependency>
+                <groupId>com.alibaba</groupId>
+                <artifactId>druid</artifactId>
+                <version>1.1.20</version>
+            </dependency>
+            <!--servlet-->
+            <dependency>
+                <groupId>javax.servlet</groupId>
+                <artifactId>javax.servlet-api</artifactId>
+                <version>3.1.0</version>
+            </dependency>
+            <!--分页-->
+            <dependency>
+                <groupId>com.github.pagehelper</groupId>
+                <artifactId>pagehelper</artifactId>
+                <version>5.1.10</version>
+            </dependency>
+            <!--切面 AOP -->
+            <dependency>
+                <groupId>org.aspectj</groupId>
+                <artifactId>aspectjweaver</artifactId>
+                <version>1.9.4</version>
+            </dependency>
+            <!--jstl 要使用标签库-->
+            <dependency>
+                <groupId>javax.servlet</groupId>
+                <artifactId>jstl</artifactId>
+                <version>1.2</version>
+            </dependency>
+            <!--测试-->
+            <dependency>
+                <groupId>junit</groupId>
+                <artifactId>junit</artifactId>
+                <version>4.12</version>
+            </dependency>
+            <!--可以少些代码的好东西-->
+            <dependency>
+                <groupId>org.projectlombok</groupId>
+                <artifactId>lombok</artifactId>
+                <version>1.18.10</version>
+            </dependency>
+<!--json格式数据-->
+            <dependency>
+                <groupId>net.minidev</groupId>
+                <artifactId>json-smart</artifactId>
+                <version>1.1.1</version>
+            </dependency>
+
+<!--阿里大鱼的短信服务-->
+            <dependency>
+                <groupId>com.aliyun</groupId>
+                <artifactId>aliyun-java-sdk-core</artifactId>
+                <version>4.1.0</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
+</project>
