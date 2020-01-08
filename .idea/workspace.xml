@@ -6,8 +6,8 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="89769a22-e941-49dd-89aa-ed9e1fe49a6f" name="Default Changelist" comment="个人项目第三次提交">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+    <list default="true" id="89769a22-e941-49dd-89aa-ed9e1fe49a6f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -89,7 +89,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ds-skateboard-community-web/src/main/java/com/nf/skateboard/controller/user/AAA.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
+            <state relative-caret-position="151">
               <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
             </state>
           </provider>
@@ -281,7 +281,7 @@
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -467,7 +467,7 @@
       <workItem from="1577273585016" duration="614000" />
       <workItem from="1577320509394" duration="476000" />
       <workItem from="1578307252685" duration="7166000" />
-      <workItem from="1578457972762" duration="245000" />
+      <workItem from="1578457972762" duration="645000" />
     </task>
     <task id="LOCAL-00001" summary="个人项目第一次提交">
       <created>1578383363989</created>
@@ -497,7 +497,21 @@
       <option name="project" value="LOCAL" />
       <updated>1578384344697</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="个人项目第四次提交">
+      <created>1578458252598</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1578458252598</updated>
+    </task>
+    <task id="LOCAL-00006" summary="个人项目第四次提交">
+      <created>1578458447557</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1578458447557</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -533,13 +547,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="340769000" />
+    <option name="totallyTimeSpent" value="341169000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="78" y="50" width="1283" height="609" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23793949" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23793949" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -555,7 +568,7 @@
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="11" visible="true" weight="0.27578947" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="11" visible="true" weight="0.15368421" />
       <window_info active="true" anchor="bottom" id="Messages" order="12" visible="true" weight="0.38947368" />
       <window_info anchor="bottom" id="Spring" order="13" />
       <window_info anchor="bottom" id="MyBatis Log" order="14" />
@@ -602,12 +615,23 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="个人项目第一次天提交" />
     <MESSAGE value="个人项目第一次提交" />
     <MESSAGE value="个人项目第二次提交" />
     <MESSAGE value="个人项目第三次提交" />
-    <option name="LAST_COMMIT_MESSAGE" value="个人项目第三次提交" />
+    <MESSAGE value="个人项目第四次提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="个人项目第四次提交" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -888,7 +912,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ds-skateboard-community-web/src/main/java/com/nf/skateboard/controller/user/AAA.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
+        <state relative-caret-position="151">
           <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
         </state>
       </provider>
