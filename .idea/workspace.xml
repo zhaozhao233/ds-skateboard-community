@@ -1,0 +1,985 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="ds-skateboard-community-web:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="89769a22-e941-49dd-89aa-ed9e1fe49a6f" name="Default Changelist" comment="个人项目第三次提交">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/ds-skateboard-community-web/target/" />
+    <ignored path="$PROJECT_DIR$/ds-skateboard-community-dao/target/" />
+    <ignored path="$PROJECT_DIR$/ds-skateboard-community-entity/target/" />
+    <ignored path="$PROJECT_DIR$/ds-skateboard-community-service/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="skateboard_community@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="skateboard_community@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="skateboard_community@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="skateboard_community: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="skateboard_community@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="skateboard_community: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="dynamic_image: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ds-skateboard-community-web/src/main/resources/static/layui/font/iconfont.svg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ds-skateboard-community-service/src/main/java/com/nf/skateboard/service/impl/UserServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="253">
+              <caret line="18" column="55" selection-start-line="18" selection-start-column="55" selection-end-line="18" selection-end-column="55" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ds-skateboard-community-web/src/main/java/com/nf/skateboard/config/AppConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="161">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ds-skateboard-community-web/src/main/java/com/nf/skateboard/controller/user/AAA.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="230">
+              <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ds-skateboard-community-service/src/main/java/com/nf/skateboard/service/impl/UserDynamicServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="230">
+              <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Interface" />
+        <option value="JUnit4 Test Class" />
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+        <option value="Class" />
+        <option value="Jsp File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>dog</find>
+      <find>COLLATE=utf8mb4_0900_ai_ci</find>
+      <find>open</find>
+      <find>obj</find>
+      <find>listDynamic</find>
+      <find>read-re</find>
+      <find>comment-image-div</find>
+      <find>publish-comment</find>
+      <find>publish-chile-but</find>
+      <find>comment-div</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>null</replace>
+      <replace>chile-comment-image-div</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="UPDATE_TYPE" value="MERGE" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/ds-skateboard-community-entity/src/main/java/com/nf/skateboard/entity/UserLoginInfo.java" />
+        <option value="$PROJECT_DIR$/ds-skateboard-community-dao/src/main/java/com/nf/skateboard/dao/UserDao.java" />
+        <option value="$PROJECT_DIR$/ds-skateboard-community-service/src/test/java/com/nf/skateboard/service/impl/UserServiceImplTest.java" />
+        <option value="$PROJECT_DIR$/ds-skateboard-community-web/web/WEB-INF/jsp/login.jsp" />
+        <option value="$PROJECT_DIR$/ds-skateboard-community-web/src/main/java/com/nf/skateboard/interceptor/LoginInterceptor.java" />
+        <option value="$PROJECT_DIR$/ds-skateboard-community-web/src/main/java/com/nf/skateboard/config/SystemConfig.java" />
+        <option value="$PROJECT_DIR$/ds-skateboard-community-web/src/main/java/com/nf/skateboard/vo/ResponseVO.java" />
+        <option value="$PROJECT_DIR$/ds-skateboard-community-web/src/main/java/com/nf/skateboard/utils/UserImageFileNameUtil.java" />
+        <option value="$PROJECT_DIR$/ds-skateboard-community-service/src/main/java/com/nf/skateboard/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/ds-skateboard-community-web/src/main/java/com/nf/skateboard/controller/user/UserController.java" />
+        <option value="$PROJECT_DIR$/ds-skateboard-community-entity/src/main/java/com/nf/skateboard/entity/UserInfo.java" />
+        <option value="$PROJECT_DIR$/ds-skateboard-community-web/src/main/java/com/nf/skateboard/controller/getFileSourceController.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/084b4e67-8617-4371-a036-0a9603dcbe62/console.sql" />
+        <option value="$PROJECT_DIR$/ds-skateboard-community-entity/src/main/java/com/nf/skateboard/entity/UserDynamicImage.java" />
+        <option value="$PROJECT_DIR$/ds-skateboard-community-dao/src/main/resources/mybatis/mappers/UserMapper.xml" />
+        <option value="$PROJECT_DIR$/ds-skateboard-community-dao/src/test/java/com/nf/skateboard/dao/UserDynamicDaoTest.java" />
+        <option value="$PROJECT_DIR$/ds-skateboard-community-web/src/main/java/com/nf/skateboard/filter/RequestResponseFilter.java" />
+        <option value="$PROJECT_DIR$/ds-skateboard-community-web/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/ds-skateboard-community-service/pom.xml" />
+        <option value="$PROJECT_DIR$/ds-skateboard-community-service/src/test/java/com/nf/skateboard/service/impl/UserDynamicServiceImplTest.java" />
+        <option value="$PROJECT_DIR$/ds-skateboard-community-web/pom.xml" />
+        <option value="$PROJECT_DIR$/ds-skateboard-community-web/src/main/java/com/nf/skateboard/config/MvcConfig.java" />
+        <option value="$PROJECT_DIR$/ds-skateboard-community-dao/src/main/java/com/nf/skateboard/config/DaoSpringConfig.java" />
+        <option value="$PROJECT_DIR$/ds-skateboard-community-web/src/test/java/com/nf/skateboard/service/ServiceTest.java" />
+        <option value="$PROJECT_DIR$/ds-skateboard-community-web/target/classes/static/js/user-dynamic.js" />
+        <option value="$PROJECT_DIR$/ds-skateboard-community-web/src/main/java/com/nf/skateboard/controller/GetFileSourceController.java" />
+        <option value="$PROJECT_DIR$/ds-skateboard-community-web/src/main/resources/static/js/user-dynamic.js" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/09ffd791-3b45-45d6-890f-797c40bf9b6b/console.sql" />
+        <option value="$PROJECT_DIR$/ds-skateboard-community-web/src/main/java/com/nf/skateboard/utils/SendVerificationCode.java" />
+        <option value="$PROJECT_DIR$/ds-skateboard-community-entity/src/main/java/com/nf/skateboard/entity/UserDynamicComment.java" />
+        <option value="$PROJECT_DIR$/ds-skateboard-community-service/src/main/java/com/nf/skateboard/service/UserService.java" />
+        <option value="$PROJECT_DIR$/ds-skateboard-community-entity/src/main/java/com/nf/skateboard/entity/DynamicComment.java" />
+        <option value="$PROJECT_DIR$/ds-skateboard-community-entity/src/main/java/com/nf/skateboard/entity/UserDynamic.java" />
+        <option value="$PROJECT_DIR$/ds-skateboard-community-web/src/main/java/com/nf/skateboard/controller/user/UserLoginController.java" />
+        <option value="$PROJECT_DIR$/ds-skateboard-community-web/web/WEB-INF/jsp/logon.jsp" />
+        <option value="$PROJECT_DIR$/ds-skateboard-community-web/web/WEB-INF/jsp/emoji.jsp" />
+        <option value="$PROJECT_DIR$/ds-skateboard-community-service/src/main/java/com/nf/skateboard/service/UserDynamicService.java" />
+        <option value="$PROJECT_DIR$/ds-skateboard-community-dao/src/main/java/com/nf/skateboard/dao/UserDynamicDao.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
+        <option value="$PROJECT_DIR$/ds-skateboard-community-service/src/main/java/com/nf/skateboard/service/impl/UserDynamicServiceImpl.java" />
+        <option value="$PROJECT_DIR$/ds-skateboard-community-web/src/main/java/com/nf/skateboard/controller/user/UserDynamicController.java" />
+        <option value="$PROJECT_DIR$/ds-skateboard-community-dao/src/main/resources/mybatis/mappers/UserDynamicMapper.xml" />
+        <option value="$PROJECT_DIR$/ds-skateboard-community-web/src/main/resources/static/css/user-dynamic.css" />
+        <option value="$PROJECT_DIR$/ds-skateboard-community-web/web/WEB-INF/jsp/childComment.jsp" />
+        <option value="$PROJECT_DIR$/ds-skateboard-community-web/web/WEB-INF/jsp/comment.jsp" />
+        <option value="$PROJECT_DIR$/ds-skateboard-community-web/web/WEB-INF/jsp/userDynamic.jsp" />
+        <option value="$PROJECT_DIR$/ds-skateboard-community-web/web/WEB-INF/jsp/homepage.jsp" />
+        <option value="$PROJECT_DIR$/ds-skateboard-community-web/src/main/resources/static/layui/font/iconfont.svg" />
+        <option value="$PROJECT_DIR$/ds-skateboard-community-web/src/main/resources/static/bootstrap-3.3.7/fonts/glyphicons-halflings-regular.svg" />
+        <option value="$PROJECT_DIR$/ds-skateboard-community-web/src/main/java/com/nf/skateboard/config/AppConfig.java" />
+        <option value="$PROJECT_DIR$/ds-skateboard-community-web/src/main/java/com/nf/skateboard/controller/user/AAA.java" />
+      </list>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="ds-skateboard-community-web" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="ds-skateboard-community-web" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="78" />
+    <option name="y" value="50" />
+    <option name="width" value="1283" />
+    <option name="height" value="609" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ds-skateboard-community" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ds-skateboard-community" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="database.console.LAST_STATE" value="false" />
+    <property name="last_opened_file_path" value="F:/个人项目本地仓库" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.nf.skateboard.dao" />
+      <recent name="com.nf.skateboard.service.impl" />
+    </key>
+    <key name="CreateBuilderDialog.RecentsKey">
+      <recent name="com.nf.skateboard.vo" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\个人项目\ds-skateboard-community\ds-skateboard-community-web\src\main\resources\static\emoji" />
+      <recent name="F:\个人项目\ds-skateboard-community\ds-skateboard-community-web\src\main\resources\static" />
+      <recent name="F:\个人项目\ds-skateboard-community\ds-skateboard-community-web\src\main\resources\img" />
+      <recent name="F:\个人项目\ds-skateboard-community\ds-skateboard-community-web\src\main\resources\static\css" />
+      <recent name="F:\个人项目\ds-skateboard-community\ds-skateboard-community-web\web\WEB-INF" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\个人项目\ds-skateboard-community\ds-skateboard-community-web\web\WEB-INF\jsp" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.211">
+    <configuration name="ServiceTest.delete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ds-skateboard-community-web" />
+      <option name="PACKAGE_NAME" value="com.nf.skateboard.service" />
+      <option name="MAIN_CLASS_NAME" value="com.nf.skateboard.service.ServiceTest" />
+      <option name="METHOD_NAME" value="delete" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserDynamicServiceImplTest.delete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ds-skateboard-community-service" />
+      <option name="PACKAGE_NAME" value="com.nf.skateboard.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="com.nf.skateboard.service.impl.UserDynamicServiceImplTest" />
+      <option name="METHOD_NAME" value="delete" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserDynamicServiceImplTest.insertUserDynamicImage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ds-skateboard-community-service" />
+      <option name="PACKAGE_NAME" value="com.nf.skateboard.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="com.nf.skateboard.service.impl.UserDynamicServiceImplTest" />
+      <option name="METHOD_NAME" value="insertUserDynamicImage" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserDynamicServiceImplTest.listUserDynamicImageByUserImageId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ds-skateboard-community-service" />
+      <option name="PACKAGE_NAME" value="com.nf.skateboard.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="com.nf.skateboard.service.impl.UserDynamicServiceImplTest" />
+      <option name="METHOD_NAME" value="listUserDynamicImageByUserImageId" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserDynamicServiceImplTest.updateUserDunamicImage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ds-skateboard-community-service" />
+      <option name="PACKAGE_NAME" value="com.nf.skateboard.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="com.nf.skateboard.service.impl.UserDynamicServiceImplTest" />
+      <option name="METHOD_NAME" value="updateUserDunamicImage" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat 9.0.211" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.211" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <deployment>
+        <artifact name="ds-skateboard-community-web:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_ds-skateboard-community_2" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="10156" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="ds-skateboard-community-web:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ServiceTest.delete" />
+        <item itemvalue="JUnit.UserDynamicServiceImplTest.delete" />
+        <item itemvalue="JUnit.UserDynamicServiceImplTest.insertUserDynamicImage" />
+        <item itemvalue="JUnit.UserDynamicServiceImplTest.updateUserDunamicImage" />
+        <item itemvalue="JUnit.UserDynamicServiceImplTest.listUserDynamicImageByUserImageId" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="89769a22-e941-49dd-89aa-ed9e1fe49a6f" name="Default Changelist" comment="" />
+      <created>1575428510879</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1575428510879</updated>
+      <workItem from="1575428513971" duration="4789000" />
+      <workItem from="1575457383396" duration="5571000" />
+      <workItem from="1575502353857" duration="24663000" />
+      <workItem from="1575588777874" duration="13804000" />
+      <workItem from="1575803940893" duration="2695000" />
+      <workItem from="1575854809529" duration="33125000" />
+      <workItem from="1575980988076" duration="1483000" />
+      <workItem from="1576024008055" duration="15652000" />
+      <workItem from="1576063707632" duration="24489000" />
+      <workItem from="1576148737406" duration="6196000" />
+      <workItem from="1576193912483" duration="16242000" />
+      <workItem from="1576389609869" duration="15647000" />
+      <workItem from="1576459407969" duration="71257000" />
+      <workItem from="1576652034922" duration="12846000" />
+      <workItem from="1576712013635" duration="53132000" />
+      <workItem from="1576993852116" duration="24851000" />
+      <workItem from="1577058495423" duration="629000" />
+      <workItem from="1577083416678" duration="5197000" />
+      <workItem from="1577273585016" duration="614000" />
+      <workItem from="1577320509394" duration="476000" />
+      <workItem from="1578307252685" duration="7166000" />
+      <workItem from="1578457972762" duration="245000" />
+    </task>
+    <task id="LOCAL-00001" summary="个人项目第一次提交">
+      <created>1578383363989</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1578383363990</updated>
+    </task>
+    <task id="LOCAL-00002" summary="个人项目第一次提交">
+      <created>1578383826887</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1578383826887</updated>
+    </task>
+    <task id="LOCAL-00003" summary="个人项目第二次提交">
+      <created>1578384081656</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1578384081656</updated>
+    </task>
+    <task id="LOCAL-00004" summary="个人项目第三次提交">
+      <created>1578384344697</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1578384344697</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="UserDynamicServiceImplTest_insertUserDynamicImage - 2019.12.18 at 07h 50m 09s.xml">
+      <configuration name="UserDynamicServiceImplTest.insertUserDynamicImage" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserDynamicServiceImplTest_insertUserDynamicImage - 2019.12.18 at 07h 51m 47s.xml">
+      <configuration name="UserDynamicServiceImplTest.insertUserDynamicImage" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserDynamicServiceImplTest_insertUserDynamicImage - 2019.12.18 at 07h 52m 30s.xml">
+      <configuration name="UserDynamicServiceImplTest.insertUserDynamicImage" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserDynamicServiceImplTest_delete - 2019.12.18 at 15h 23m 11s.xml">
+      <configuration name="UserDynamicServiceImplTest.delete" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserDynamicServiceImplTest_delete - 2019.12.18 at 15h 25m 14s.xml">
+      <configuration name="UserDynamicServiceImplTest.delete" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserDynamicServiceImplTest_delete - 2019.12.18 at 15h 26m 29s.xml">
+      <configuration name="UserDynamicServiceImplTest.delete" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ServiceTest_delete - 2019.12.18 at 15h 35m 24s.xml">
+      <configuration name="ServiceTest.delete" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ServiceTest_delete - 2019.12.18 at 15h 38m 14s.xml">
+      <configuration name="ServiceTest.delete" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ServiceTest_delete - 2019.12.18 at 15h 45m 19s.xml">
+      <configuration name="ServiceTest.delete" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ServiceTest_delete - 2019.12.18 at 15h 49m 01s.xml">
+      <configuration name="ServiceTest.delete" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="340769000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="78" y="50" width="1283" height="609" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23793949" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="Web" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.24060151" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.30755064" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.28176796" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="11" visible="true" weight="0.27578947" />
+      <window_info active="true" anchor="bottom" id="Messages" order="12" visible="true" weight="0.38947368" />
+      <window_info anchor="bottom" id="Spring" order="13" />
+      <window_info anchor="bottom" id="MyBatis Log" order="14" />
+      <window_info anchor="bottom" id="Java Enterprise" order="15" />
+      <window_info anchor="bottom" id="Database Console" order="16" weight="0.50092083" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.34273127" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.23983051" />
+      <window_info anchor="right" id="Database" order="4" weight="0.25838104" />
+      <window_info anchor="right" id="Palette&#9;" order="5" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17497887" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="Web" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.24060151" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.29650092" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39938557" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="11" />
+      <window_info anchor="bottom" id="Messages" order="12" visible="true" weight="0.23020259" />
+      <window_info anchor="bottom" id="Spring" order="13" />
+      <window_info anchor="bottom" id="MyBatis Log" order="14" />
+      <window_info anchor="bottom" id="Java Enterprise" order="15" />
+      <window_info anchor="bottom" id="Database Console" order="16" weight="0.25880283" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.34273127" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.43010753" />
+      <window_info anchor="right" id="Database" order="4" weight="0.15013902" />
+      <window_info anchor="right" id="Palette&#9;" order="5" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="个人项目第一次天提交" />
+    <MESSAGE value="个人项目第一次提交" />
+    <MESSAGE value="个人项目第二次提交" />
+    <MESSAGE value="个人项目第三次提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="个人项目第三次提交" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ds-skateboard-community-web/src/main/java/com/nf/skateboard/filter/RequestResponseFilter.java</url>
+          <line>15</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ds-skateboard-community-web/src/main/java/com/nf/skateboard/controller/GetFileSourceController.java</url>
+          <line>112</line>
+          <properties />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ds-skateboard-community-web/src/main/java/com/nf/skateboard/controller/user/UserDynamicController.java</url>
+          <line>61</line>
+          <properties />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>File</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>File.separatorChar</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>File.pathSeparator</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>File.separator</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/ds-skateboard-community-entity/src/main/java/com/nf/skateboard/entity/UserInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://09ffd791-3b45-45d6-890f-797c40bf9b6b/schema/skateboard_community/table/user_dynamic" />
+    <entry file="file://$PROJECT_DIR$/ds-skateboard-community-entity/src/main/java/com/nf/skateboard/entity/UserDynamic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="9" column="33" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://09ffd791-3b45-45d6-890f-797c40bf9b6b/schema/skateboard_community/table/dynamic_image">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ds-skateboard-community-entity/src/main/java/com/nf/skateboard/entity/DynamicComment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="9" column="48" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ds-skateboard-community-web/src/main/java/com/nf/skateboard/controller/user/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-138">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ds-skateboard-community-web/web/WEB-INF/jsp/login.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ds-skateboard-community-service/src/main/java/com/nf/skateboard/service/UserDynamicService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="24" column="52" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ds-skateboard-community-web/src/main/java/com/nf/skateboard/controller/user/UserLoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="80" column="26" lean-forward="true" selection-start-line="80" selection-start-column="26" selection-end-line="80" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ds-skateboard-community-web/src/main/resources/static/js/user-dynamic.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="11" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.2.0.RELEASE/spring-web-5.2.0.RELEASE-sources.jar!/org/springframework/web/method/support/InvocableHandlerMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="138" column="5" lean-forward="true" selection-start-line="138" selection-start-column="5" selection-end-line="138" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ds-skateboard-community-web/src/main/java/com/nf/skateboard/controller/GetFileSourceController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="89">
+          <caret line="111" lean-forward="true" selection-start-line="111" selection-end-line="111" />
+          <folding>
+            <element signature="method#getFileSource#0;class#GetFileSourceController#0" />
+            <element signature="method#uploadImage#0;class#GetFileSourceController#0" />
+            <element signature="e#5349#5367#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://09ffd791-3b45-45d6-890f-797c40bf9b6b/schema/skateboard_community/table/dynamic_comment">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ds-skateboard-community-web/src/main/java/com/nf/skateboard/controller/user/UserDynamicController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1403">
+          <caret line="61" column="72" selection-start-line="61" selection-start-column="72" selection-end-line="61" selection-end-column="72" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ds-skateboard-community-dao/src/main/java/com/nf/skateboard/dao/UserDynamicDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="26" column="25" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ds-skateboard-community-web/target/classes/static/css/mycss.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ds-skateboard-community-dao/src/main/resources/mybatis/mappers/UserDynamicMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="59" selection-start-line="59" selection-end-line="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ds-skateboard-community-web/target/classes/static/css/user-dynamic.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-253">
+          <caret line="4" column="36" lean-forward="true" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ds-skateboard-community-web/web/WEB-INF/jsp/childComment.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="63" selection-start-line="5" selection-start-column="63" selection-end-line="5" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ds-skateboard-community-web/web/WEB-INF/jsp/userDynamic.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1334">
+          <caret line="59" column="53" selection-start-line="59" selection-start-column="53" selection-end-line="59" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ds-skateboard-community-web/src/main/resources/static/css/user-dynamic.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="920">
+          <caret line="40" column="6" selection-start-line="40" selection-start-column="6" selection-end-line="40" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ds-skateboard-community-web/web/WEB-INF/jsp/comment.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1909">
+          <caret line="83" column="49" selection-start-line="83" selection-start-column="49" selection-end-line="83" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ds-skateboard-community-web/web/WEB-INF/jsp/homepage.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3726">
+          <caret line="162" column="37" selection-start-line="162" selection-start-column="37" selection-end-line="162" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ds-skateboard-community-web/web/WEB-INF/jsp/logon.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6187">
+          <caret line="269" column="21" selection-start-line="269" selection-start-column="18" selection-end-line="269" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ds-skateboard-community-web/src/main/java/com/nf/skateboard/config/MvcConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="14" column="45" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ds-skateboard-community-web/web/WEB-INF/jsp/emoji.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="56" selection-start-column="56" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ds-skateboard-community-web/src/main/resources/static/bootstrap-3.3.7/fonts/glyphicons-halflings-regular.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ds-skateboard-community-web/src/main/resources/static/layui/font/iconfont.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ds-skateboard-community-service/src/main/java/com/nf/skateboard/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="18" column="55" selection-start-line="18" selection-start-column="55" selection-end-line="18" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ds-skateboard-community-web/src/main/java/com/nf/skateboard/config/AppConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ds-skateboard-community-service/src/main/java/com/nf/skateboard/service/impl/UserDynamicServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="37">
+          <caret line="53" column="7" lean-forward="true" selection-start-line="53" selection-start-column="7" selection-end-line="53" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/compiler.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ds-skateboard-community-web/src/main/java/com/nf/skateboard/controller/user/AAA.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>ds-skateboard-community-web:war exploded</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web|ds-skateboard-community-web</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: com.alibaba:druid:1.1.20</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

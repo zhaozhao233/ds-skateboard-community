@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mybatis="http://mybatis.org/schema/mybatis-spring"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://mybatis.org/schema/mybatis-spring http://mybatis.org/schema/mybatis-spring.xsd http://www.springframework.org/schema/context https://www.springframework.org/schema/context/spring-context.xsd">
+
+<!--    扫描添加到spring管理-->
+    <context:component-scan base-package="com.nf.skateboard.service"/>
+    <!--    扫描 mybatis使用的dao-->
+    <mybatis:scan base-package="com.nf.skateboard.dao"/>
+    <!--    导入外部文件-->
+    <context:property-placeholder local-override="true" location="classpath:mybatis/db.properties"/>
+    <!--    配置数据源-->
+    <bean id="dataSource" class="com.alibaba.druid.pool.DruidDataSource">
+        <property name="url" value="${jdbc.url}" />
+        <property name="username" value="${jdbc.username}"/>
+        <property name="password" value="${jdbc.password}"/>
+        <property name="driverClassName" value="${jdbc.driver}"/>
+    </bean>
+
+    <!--SqlSessionFactoryBean 继承了 FactoryBean<SqlSessionFactory> 反正就是很有用，有空看看源代码-->
+    <bean id="sqlSession" class="org.mybatis.spring.SqlSessionFactoryBean">
+        <!--        配置数据源-->
+        <property name="dataSource" ref="dataSource"/>
+        <!--        配置mapper文件-->
+        <property name="mapperLocations" value="classpath*:mybatis/mappers/UserMapper.xml"/>
+        <!--        插件，分页-->
+        <property name="plugins">
+            <list>
+                <bean class="com.github.pagehelper.PageInterceptor">
+                    <property name="properties">
+                        <props>
+                            <prop key="supportMethodsArguments">true</prop>
+                            <prop key="reasonable">true</prop>
+                        </props>
+                    </property>
+                </bean>
+            </list>
+        </property>
+        <!--        日志-->
+        <property name="configuration">
+            <bean class="org.apache.ibatis.session.Configuration">
+                <property name="logImpl" value="org.apache.ibatis.logging.stdout.StdOutImpl"></property>
+                <property name="mapUnderscoreToCamelCase" value="true"/>
+            </bean>
+        </property>
+
+    </bean>
+
+
+</beans>
