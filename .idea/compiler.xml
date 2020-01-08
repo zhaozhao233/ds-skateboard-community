@@ -6,9 +6,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="ds-skateboard-community-dao" />
-        <module name="ds-skateboard-community-web" />
         <module name="ds-skateboard-community-service" />
+        <module name="ds-skateboard-community-web" />
+        <module name="ds-skateboard-community-dao" />
         <module name="ds-skateboard-community-entity" />
       </profile>
     </annotationProcessing>
