@@ -6,9 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="89769a22-e941-49dd-89aa-ed9e1fe49a6f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="89769a22-e941-49dd-89aa-ed9e1fe49a6f" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/ds-skateboard-community-web/target/" />
@@ -89,8 +87,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ds-skateboard-community-web/src/main/java/com/nf/skateboard/controller/user/AAA.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="151">
-              <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+            <state relative-caret-position="86">
+              <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -239,8 +237,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="78" />
-    <option name="y" value="50" />
+    <option name="x" value="26" />
+    <option name="y" value="79" />
     <option name="width" value="1283" />
     <option name="height" value="609" />
   </component>
@@ -467,7 +465,7 @@
       <workItem from="1577273585016" duration="614000" />
       <workItem from="1577320509394" duration="476000" />
       <workItem from="1578307252685" duration="7166000" />
-      <workItem from="1578457972762" duration="645000" />
+      <workItem from="1578457972762" duration="1419000" />
     </task>
     <task id="LOCAL-00001" summary="个人项目第一次提交">
       <created>1578383363989</created>
@@ -511,7 +509,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578458447557</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="个人项目第四次提交">
+      <created>1578458733994</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1578458733994</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -547,10 +552,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="341169000" />
+    <option name="totallyTimeSpent" value="341943000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="78" y="50" width="1283" height="609" extended-state="0" />
+    <frame x="78" y="50" width="1283" height="609" extended-state="1" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23793949" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -565,14 +570,14 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Database Changes" order="8" weight="0.32842106" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32842106" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info active="true" anchor="bottom" id="Version Control" order="11" visible="true" weight="0.15368421" />
       <window_info active="true" anchor="bottom" id="Messages" order="12" visible="true" weight="0.38947368" />
       <window_info anchor="bottom" id="Spring" order="13" />
       <window_info anchor="bottom" id="MyBatis Log" order="14" />
-      <window_info anchor="bottom" id="Java Enterprise" order="15" />
+      <window_info anchor="bottom" id="Java Enterprise" order="15" weight="0.32842106" />
       <window_info anchor="bottom" id="Database Console" order="16" weight="0.50092083" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -912,8 +917,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ds-skateboard-community-web/src/main/java/com/nf/skateboard/controller/user/AAA.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+        <state relative-caret-position="86">
+          <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
         </state>
       </provider>
     </entry>
