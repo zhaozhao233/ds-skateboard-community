@@ -1,4 +1,4 @@
-package com.nf.skateboard.service.impl;
+package com.nf.skateboard.service.user.impl;
 
 import com.nf.skateboard.config.DaoSpringConfig;
 import com.nf.skateboard.dao.UserDynamicDao;
@@ -12,8 +12,6 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
 import java.util.ArrayList;
 import java.util.List;
-
-import static org.junit.Assert.*;
 
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration(classes = DaoSpringConfig.class)

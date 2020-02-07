@@ -1,27 +1,21 @@
 package com.nf.skateboard.controller.user;
 
-import com.nf.skateboard.entity.UserDynamic;
-import com.nf.skateboard.entity.UserDynamicImage;
 import com.nf.skateboard.entity.UserInfo;
 import com.nf.skateboard.entity.UserLoginInfo;
-import com.nf.skateboard.service.UserDynamicService;
-import com.nf.skateboard.service.impl.UserServiceImpl;
+import com.nf.skateboard.service.user.UserDynamicService;
+import com.nf.skateboard.service.user.impl.UserServiceImpl;
 import com.nf.skateboard.utils.RandomCode;
 import com.nf.skateboard.utils.SendVerificationCode;
 import com.nf.skateboard.vo.ResponseVO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.transaction.annotation.Transactional;
-import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 import javax.servlet.http.HttpSession;
-import java.sql.Timestamp;
-import java.text.SimpleDateFormat;
-import java.util.List;
 
 // 用户登录
 @Controller

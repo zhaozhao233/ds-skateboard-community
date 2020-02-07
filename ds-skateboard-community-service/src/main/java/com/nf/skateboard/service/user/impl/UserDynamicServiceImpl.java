@@ -1,9 +1,9 @@
-package com.nf.skateboard.service.impl;
+package com.nf.skateboard.service.user.impl;
 
 import com.nf.skateboard.dao.UserDao;
 import com.nf.skateboard.dao.UserDynamicDao;
 import com.nf.skateboard.entity.*;
-import com.nf.skateboard.service.UserDynamicService;
+import com.nf.skateboard.service.user.UserDynamicService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

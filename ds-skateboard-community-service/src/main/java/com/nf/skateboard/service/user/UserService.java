@@ -1,4 +1,4 @@
-package com.nf.skateboard.service;
+package com.nf.skateboard.service.user;
 
 import com.nf.skateboard.entity.UserInfo;
 import com.nf.skateboard.entity.UserLoginInfo;

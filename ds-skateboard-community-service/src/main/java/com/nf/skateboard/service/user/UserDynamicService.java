@@ -1,4 +1,4 @@
-package com.nf.skateboard.service;
+package com.nf.skateboard.service.user;
 
 import com.nf.skateboard.entity.DynamicComment;
 import com.nf.skateboard.entity.UserDynamic;

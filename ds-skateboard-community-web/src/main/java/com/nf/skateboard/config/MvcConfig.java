@@ -5,8 +5,6 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Import;
-import org.springframework.jdbc.datasource.DataSourceTransactionManager;
-import org.springframework.transaction.annotation.EnableTransactionManagement;
 import org.springframework.web.servlet.config.annotation.*;
 import org.springframework.web.servlet.view.InternalResourceViewResolver;
 
@@ -14,7 +12,7 @@ import org.springframework.web.servlet.view.InternalResourceViewResolver;
 @Configuration
 @EnableWebMvc   // 相当于<mvc:annotation-driven>
 @Import(com.nf.skateboard.config.DaoSpringConfig.class) //导入另一个配置文件
-@ComponentScan({"com.nf.skateboard.service.impl","com.nf.skateboard.controller"})
+@ComponentScan({"com.nf.skateboard.service.user.impl","com.nf.skateboard.controller"})
 public class MvcConfig implements WebMvcConfigurer {
 
 

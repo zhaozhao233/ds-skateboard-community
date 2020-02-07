@@ -1,9 +1,9 @@
-package com.nf.skateboard.service.impl;
+package com.nf.skateboard.service.user.impl;
 
 import com.nf.skateboard.dao.UserDao;
 import com.nf.skateboard.entity.UserInfo;
 import com.nf.skateboard.entity.UserLoginInfo;
-import com.nf.skateboard.service.UserService;
+import com.nf.skateboard.service.user.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

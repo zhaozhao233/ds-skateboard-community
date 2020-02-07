@@ -1,8 +1,6 @@
 package com.nf.skateboard.controller.user;
 
-import com.nf.skateboard.entity.UserInfo;
-import com.nf.skateboard.service.impl.UserServiceImpl;
-import com.nf.skateboard.vo.ResponseVO;
+import com.nf.skateboard.service.user.impl.UserServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
