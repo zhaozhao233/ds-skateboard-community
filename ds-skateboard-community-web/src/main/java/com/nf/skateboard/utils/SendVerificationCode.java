@@ -12,7 +12,7 @@ import com.aliyuncs.profile.DefaultProfile;
 public class SendVerificationCode {
 
     public String sendMessage(String phone,String randomNumber) {
-        DefaultProfile profile = DefaultProfile.getProfile("cn-hangzhou", "LTAIqvKETy9Hvix0", "LKrnhMft8sGrf1Ya6a5PU3OAIpis92");
+        DefaultProfile profile = DefaultProfile.getProfile("cn-hangzhou", "密钥", "密钥");
         IAcsClient client = new DefaultAcsClient(profile);
 
         CommonRequest request = new CommonRequest();
