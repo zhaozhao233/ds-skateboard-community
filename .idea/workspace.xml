@@ -7,27 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="89769a22-e941-49dd-89aa-ed9e1fe49a6f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ds-skateboard-community-dao/src/main/java/com/nf/skateboard/dao/UserVideoDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ds-skateboard-community-dao/src/main/resources/mybatis/mappers/UserVideoMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ds-skateboard-community-entity/src/main/java/com/nf/skateboard/entity/UserVideo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ds-skateboard-community-web/src/main/java/com/nf/skateboard/controller/PageLoadController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ds-skateboard-community-web/src/main/java/com/nf/skateboard/controller/user/UserVideoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ds-skateboard-community-web/src/main/java/com/nf/skateboard/controller/websocket/MyWebSocketController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ds-skateboard-community-web/web/WEB-INF/jsp/menu/dynamics/skateboardDynamic.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ds-skateboard-community-web/web/WEB-INF/jsp/menu/videos/skateboardVideo.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ds-skateboard-community-web/web/WEB-INF/jsp/websocket/friendchat.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/ds_skateboard_community_web_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/ds_skateboard_community_web_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ds-skateboard-community-web/src/main/java/com/nf/skateboard/config/MvcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/ds-skateboard-community-web/src/main/java/com/nf/skateboard/config/MvcConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ds-skateboard-community-web/src/main/java/com/nf/skateboard/config/websocket/MyWebSocketConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/ds-skateboard-community-web/src/main/java/com/nf/skateboard/config/websocket/MyWebSocketConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ds-skateboard-community-web/src/main/java/com/nf/skateboard/controller/chatroom/WebsocketController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ds-skateboard-community-web/src/main/java/com/nf/skateboard/controller/chatroom/WebsocketController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ds-skateboard-community-web/src/main/java/com/nf/skateboard/controller/user/UserLoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ds-skateboard-community-web/src/main/java/com/nf/skateboard/controller/user/UserLoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ds-skateboard-community-web/src/main/java/com/nf/skateboard/handler/websocket/MyWebSocketHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/ds-skateboard-community-web/src/main/java/com/nf/skateboard/handler/websocket/MyWebSocketHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ds-skateboard-community-web/web/WEB-INF/jsp/homepage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/ds-skateboard-community-web/web/WEB-INF/jsp/homepage.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ds-skateboard-community-web/web/WEB-INF/jsp/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/ds-skateboard-community-web/web/WEB-INF/jsp/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ds-skateboard-community-web/web/WEB-INF/jsp/logon.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/ds-skateboard-community-web/web/WEB-INF/jsp/logon.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ds_skateboard_community_web_war_exploded/WEB-INF/classes/static/layui/font/iconfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ds_skateboard_community_web_war_exploded/WEB-INF/classes/static/layui/font/iconfont.svg" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -86,7 +67,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ds-skateboard-community-dao/src/main/resources/mybatis/mappers/UserVideoMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-156">
+            <state relative-caret-position="437">
               <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
             </state>
           </provider>
@@ -95,7 +76,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ds-skateboard-community-dao/src/main/java/com/nf/skateboard/dao/UserDynamicDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
+            <state relative-caret-position="506">
               <caret line="28" column="87" selection-start-line="28" selection-start-column="3" selection-end-line="28" selection-end-column="87" />
             </state>
           </provider>
@@ -116,7 +97,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ds-skateboard-community-dao/src/main/resources/mybatis/mappers/UserDynamicMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="142">
+            <state relative-caret-position="1380">
               <caret line="60" column="44" selection-start-line="60" selection-start-column="44" selection-end-line="60" selection-end-column="44" />
             </state>
           </provider>
@@ -251,8 +232,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="160" />
-    <option name="y" value="49" />
+    <option name="x" value="127" />
+    <option name="y" value="45" />
     <option name="width" value="1131" />
     <option name="height" value="574" />
   </component>
@@ -270,430 +251,6 @@
             <path>
               <item name="ds-skateboard-community" type="b2602c69:ProjectViewProjectNode" />
               <item name="ds-skateboard-community" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ds-skateboard-community" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ds-skateboard-community" type="462c0819:PsiDirectoryNode" />
-              <item name="ds-skateboard-community-dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ds-skateboard-community" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ds-skateboard-community" type="462c0819:PsiDirectoryNode" />
-              <item name="ds-skateboard-community-dao" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ds-skateboard-community" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ds-skateboard-community" type="462c0819:PsiDirectoryNode" />
-              <item name="ds-skateboard-community-dao" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ds-skateboard-community" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ds-skateboard-community" type="462c0819:PsiDirectoryNode" />
-              <item name="ds-skateboard-community-dao" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ds-skateboard-community" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ds-skateboard-community" type="462c0819:PsiDirectoryNode" />
-              <item name="ds-skateboard-community-dao" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ds-skateboard-community" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ds-skateboard-community" type="462c0819:PsiDirectoryNode" />
-              <item name="ds-skateboard-community-dao" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="nf" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ds-skateboard-community" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ds-skateboard-community" type="462c0819:PsiDirectoryNode" />
-              <item name="ds-skateboard-community-dao" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="nf" type="462c0819:PsiDirectoryNode" />
-              <item name="skateboard" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ds-skateboard-community" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ds-skateboard-community" type="462c0819:PsiDirectoryNode" />
-              <item name="ds-skateboard-community-dao" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="nf" type="462c0819:PsiDirectoryNode" />
-              <item name="skateboard" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ds-skateboard-community" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ds-skateboard-community" type="462c0819:PsiDirectoryNode" />
-              <item name="ds-skateboard-community-dao" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="nf" type="462c0819:PsiDirectoryNode" />
-              <item name="skateboard" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ds-skateboard-community" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ds-skateboard-community" type="462c0819:PsiDirectoryNode" />
-              <item name="ds-skateboard-community-dao" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ds-skateboard-community" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ds-skateboard-community" type="462c0819:PsiDirectoryNode" />
-              <item name="ds-skateboard-community-dao" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ds-skateboard-community" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ds-skateboard-community" type="462c0819:PsiDirectoryNode" />
-              <item name="ds-skateboard-community-dao" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
-              <item name="mappers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ds-skateboard-community" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ds-skateboard-community" type="462c0819:PsiDirectoryNode" />
-              <item name="ds-skateboard-community-entity" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ds-skateboard-community" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ds-skateboard-community" type="462c0819:PsiDirectoryNode" />
-              <item name="ds-skateboard-community-entity" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ds-skateboard-community" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ds-skateboard-community" type="462c0819:PsiDirectoryNode" />
-              <item name="ds-skateboard-community-entity" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ds-skateboard-community" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ds-skateboard-community" type="462c0819:PsiDirectoryNode" />
-              <item name="ds-skateboard-community-entity" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ds-skateboard-community" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ds-skateboard-community" type="462c0819:PsiDirectoryNode" />
-              <item name="ds-skateboard-community-entity" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ds-skateboard-community" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ds-skateboard-community" type="462c0819:PsiDirectoryNode" />
-              <item name="ds-skateboard-community-entity" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="nf" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ds-skateboard-community" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ds-skateboard-community" type="462c0819:PsiDirectoryNode" />
-              <item name="ds-skateboard-community-entity" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="nf" type="462c0819:PsiDirectoryNode" />
-              <item name="skateboard" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ds-skateboard-community" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ds-skateboard-community" type="462c0819:PsiDirectoryNode" />
-              <item name="ds-skateboard-community-entity" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="nf" type="462c0819:PsiDirectoryNode" />
-              <item name="skateboard" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ds-skateboard-community" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ds-skateboard-community" type="462c0819:PsiDirectoryNode" />
-              <item name="ds-skateboard-community-web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ds-skateboard-community" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ds-skateboard-community" type="462c0819:PsiDirectoryNode" />
-              <item name="ds-skateboard-community-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ds-skateboard-community" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ds-skateboard-community" type="462c0819:PsiDirectoryNode" />
-              <item name="ds-skateboard-community-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ds-skateboard-community" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ds-skateboard-community" type="462c0819:PsiDirectoryNode" />
-              <item name="ds-skateboard-community-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ds-skateboard-community" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ds-skateboard-community" type="462c0819:PsiDirectoryNode" />
-              <item name="ds-skateboard-community-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ds-skateboard-community" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ds-skateboard-community" type="462c0819:PsiDirectoryNode" />
-              <item name="ds-skateboard-community-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="nf" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ds-skateboard-community" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ds-skateboard-community" type="462c0819:PsiDirectoryNode" />
-              <item name="ds-skateboard-community-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="nf" type="462c0819:PsiDirectoryNode" />
-              <item name="skateboard" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ds-skateboard-community" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ds-skateboard-community" type="462c0819:PsiDirectoryNode" />
-              <item name="ds-skateboard-community-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="nf" type="462c0819:PsiDirectoryNode" />
-              <item name="skateboard" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ds-skateboard-community" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ds-skateboard-community" type="462c0819:PsiDirectoryNode" />
-              <item name="ds-skateboard-community-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="nf" type="462c0819:PsiDirectoryNode" />
-              <item name="skateboard" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-              <item name="websocket" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ds-skateboard-community" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ds-skateboard-community" type="462c0819:PsiDirectoryNode" />
-              <item name="ds-skateboard-community-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="nf" type="462c0819:PsiDirectoryNode" />
-              <item name="skateboard" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ds-skateboard-community" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ds-skateboard-community" type="462c0819:PsiDirectoryNode" />
-              <item name="ds-skateboard-community-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="nf" type="462c0819:PsiDirectoryNode" />
-              <item name="skateboard" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-              <item name="chatroom" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ds-skateboard-community" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ds-skateboard-community" type="462c0819:PsiDirectoryNode" />
-              <item name="ds-skateboard-community-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="nf" type="462c0819:PsiDirectoryNode" />
-              <item name="skateboard" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ds-skateboard-community" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ds-skateboard-community" type="462c0819:PsiDirectoryNode" />
-              <item name="ds-skateboard-community-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="nf" type="462c0819:PsiDirectoryNode" />
-              <item name="skateboard" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-              <item name="websocket" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ds-skateboard-community" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ds-skateboard-community" type="462c0819:PsiDirectoryNode" />
-              <item name="ds-skateboard-community-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="nf" type="462c0819:PsiDirectoryNode" />
-              <item name="skateboard" type="462c0819:PsiDirectoryNode" />
-              <item name="handler" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ds-skateboard-community" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ds-skateboard-community" type="462c0819:PsiDirectoryNode" />
-              <item name="ds-skateboard-community-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="nf" type="462c0819:PsiDirectoryNode" />
-              <item name="skateboard" type="462c0819:PsiDirectoryNode" />
-              <item name="handler" type="462c0819:PsiDirectoryNode" />
-              <item name="websocket" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ds-skateboard-community" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ds-skateboard-community" type="462c0819:PsiDirectoryNode" />
-              <item name="ds-skateboard-community-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="nf" type="462c0819:PsiDirectoryNode" />
-              <item name="skateboard" type="462c0819:PsiDirectoryNode" />
-              <item name="interceptor" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ds-skateboard-community" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ds-skateboard-community" type="462c0819:PsiDirectoryNode" />
-              <item name="ds-skateboard-community-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="nf" type="462c0819:PsiDirectoryNode" />
-              <item name="skateboard" type="462c0819:PsiDirectoryNode" />
-              <item name="interceptor" type="462c0819:PsiDirectoryNode" />
-              <item name="websocket" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ds-skateboard-community" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ds-skateboard-community" type="462c0819:PsiDirectoryNode" />
-              <item name="ds-skateboard-community-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ds-skateboard-community" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ds-skateboard-community" type="462c0819:PsiDirectoryNode" />
-              <item name="ds-skateboard-community-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ds-skateboard-community" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ds-skateboard-community" type="462c0819:PsiDirectoryNode" />
-              <item name="ds-skateboard-community-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ds-skateboard-community" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ds-skateboard-community" type="462c0819:PsiDirectoryNode" />
-              <item name="ds-skateboard-community-web" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ds-skateboard-community" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ds-skateboard-community" type="462c0819:PsiDirectoryNode" />
-              <item name="ds-skateboard-community-web" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ds-skateboard-community" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ds-skateboard-community" type="462c0819:PsiDirectoryNode" />
-              <item name="ds-skateboard-community-web" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="jsp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ds-skateboard-community" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ds-skateboard-community" type="462c0819:PsiDirectoryNode" />
-              <item name="ds-skateboard-community-web" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="jsp" type="462c0819:PsiDirectoryNode" />
-              <item name="menu" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ds-skateboard-community" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ds-skateboard-community" type="462c0819:PsiDirectoryNode" />
-              <item name="ds-skateboard-community-web" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="jsp" type="462c0819:PsiDirectoryNode" />
-              <item name="menu" type="462c0819:PsiDirectoryNode" />
-              <item name="videos" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -912,6 +469,7 @@
       <workItem from="1581081505338" duration="11876000" />
       <workItem from="1581177134131" duration="2666000" />
       <workItem from="1581229099920" duration="9929000" />
+      <workItem from="1582290379749" duration="402000" />
     </task>
     <task id="LOCAL-00001" summary="个人项目第一次提交">
       <created>1578383363989</created>
@@ -983,7 +541,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581085599208</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="个人项目第八次提交">
+      <created>1582290485044</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1582290485044</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1019,12 +584,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="380451000" />
+    <option name="totallyTimeSpent" value="380853000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="197" y="130" width="1131" height="574" extended-state="0" />
+    <frame x="129" y="45" width="1131" height="574" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31839404" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32492998" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -1112,7 +678,8 @@
     <MESSAGE value="个人项目第五次提交" />
     <MESSAGE value="个人项目第六次提交" />
     <MESSAGE value="个人项目第七次提交" />
-    <option name="LAST_COMMIT_MESSAGE" value="个人项目第七次提交" />
+    <MESSAGE value="个人项目第八次提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="个人项目第八次提交" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1187,13 +754,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.2.0.RELEASE/spring-webmvc-5.2.0.RELEASE-sources.jar!/org/springframework/web/servlet/config/annotation/WebMvcConfigurerAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3097">
-          <caret line="40" column="22" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-websocket/5.2.0.RELEASE/spring-websocket-5.2.0.RELEASE-sources.jar!/org/springframework/web/socket/WebSocketSession.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="148">
@@ -1508,16 +1068,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ds-skateboard-community-web/src/main/java/com/nf/skateboard/controller/user/UserVidoeController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/ds-skateboard-community-web/src/main/java/com/nf/skateboard/controller/user/UserVidoeController.java" />
     <entry file="file://$PROJECT_DIR$/ds-skateboard-community-web/src/main/java/com/nf/skateboard/controller/user/UserDynamicController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -1596,41 +1147,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ds-skateboard-community-dao/src/main/resources/mybatis/mappers/UserVideoMapper.fxml">
+    <entry file="file://$PROJECT_DIR$/ds-skateboard-community-dao/src/main/resources/mybatis/mappers/UserVideoMapper.fxml" />
+    <entry file="file://$PROJECT_DIR$/ds-skateboard-community-dao/src/main/resources/mybatis/mappers/UserVideoMapper.xml.fxml" />
+    <entry file="file://$PROJECT_DIR$/ds-skateboard-community-dao/src/main/resources/mybatis/mappers/UserVideoMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="58" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="58" />
+        <state relative-caret-position="437">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
         </state>
       </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ds-skateboard-community-dao/src/main/resources/mybatis/mappers/UserVideoMapper.xml.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="61" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="61" />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
     <entry file="file://$PROJECT_DIR$/ds-skateboard-community-dao/src/main/java/com/nf/skateboard/dao/UserDynamicDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
+        <state relative-caret-position="506">
           <caret line="28" column="87" selection-start-line="28" selection-start-column="3" selection-end-line="28" selection-end-column="87" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ds-skateboard-community-dao/src/main/resources/mybatis/mappers/UserVideoMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-156">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ds-skateboard-community-dao/src/main/resources/mybatis/mappers/UserDynamicMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
+        <state relative-caret-position="1380">
           <caret line="60" column="44" selection-start-line="60" selection-start-column="44" selection-end-line="60" selection-end-column="44" />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2070" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ds-skateboard-community-dao/src/main/java/com/nf/skateboard/dao/UserVideoDao.java">
