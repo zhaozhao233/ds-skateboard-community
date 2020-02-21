@@ -24,6 +24,7 @@ public class MyWebSocketHandler implements WebSocketHandler {
     public static final Map<Integer,WebSocketSession> userSocketSessionMap;
 
     static {
+        System.out.println("websocket 处理程序");
         userSocketSessionMap = new HashMap<Integer, WebSocketSession>();
     }
 

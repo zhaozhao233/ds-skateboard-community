@@ -1,0 +1,58 @@
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.nf.skateboard.dao.UserVideoDao">
+
+    <insert id="insertUserVideo">
+        insert into user_wonderful_moment(user_id, wonderful_moment_text, wonderful_moment_video_url)
+         VALUES (#{videos.userId},#{videos.wonderfulMomentText},#{videos.wonderfulMomentVideoUrl})
+    </insert>
+
+    <insert id="insertDynamicComment">
+        insert into dynamic_comment(user_id, user_dynamic_id, comment_content, comment_level, comment_parent_id)
+        values(#{comment.userId},#{comment.userDynamicId},#{comment.commentContent},#{comment.commentLevel},#{comment.commentParentId})
+    </insert>
+
+    <select id="getDynamicCommentByCommentId" resultType="com.nf.skateboard.entity.DynamicComment">
+        select dynamic_comment_id, user_id, user_dynamic_id, comment_content, comment_time, comment_level, comment_parent_id, comment_heat from dynamic_comment
+        where dynamic_comment_id=#{commentId}
+    </select>
+
+    <select id="listDynamicComment" resultType="com.nf.skateboard.entity.DynamicComment">
+        select dynamic_comment_id, user_id, user_dynamic_id, comment_content, comment_time, comment_level, comment_parent_id, comment_heat from dynamic_comment
+        <where>
+            <if test="dynamicId != null">
+                user_dynamic_id=#{dynamicId} and
+            </if>
+            <if test="commentLevel != null">
+                <if test="commentLevel == 1">
+                    comment_level=#{commentLevel}
+                </if>
+                <if test="commentLevel > 1">
+                    comment_level>=#{commentLevel}
+                </if>
+            </if>
+        </where>
+        order by comment_heat
+    </select>
+
+    <!--    这里留个bug 按照设计的评论级别有123456789... 但是目前只有1 2 两级，有第3级页面显示的逻辑不会写-->
+    <select id="listChileCommentByCommentId" resultType="com.nf.skateboard.entity.DynamicComment">
+        select dynamic_comment_id, user_id, user_dynamic_id, comment_content, comment_time, comment_level, comment_parent_id, comment_heat from dynamic_comment
+        where comment_parent_id=#{commentParentId} order by comment_heat
+
+    </select>
+
+    <select id="getWonderfulMomentByWonderfulMomentId" resultType="com.nf.skateboard.entity.UserVideo">
+        select user_wonderful_moment_id, user_id, wonderful_moment_text, wonderful_moment_video_url, wonderful_moment_time from user_wonderful_moment
+        where user_wonderful_moment_id=#{wonderfulMomentId}
+    </select>
+
+
+    <delete id="deleteUserWonderfulMoment">
+        delete from user_wonderful_moment where user_wonderful_moment_id=#{wonderfulMomentId}
+    </delete>
+
+
+</mapper>

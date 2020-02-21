@@ -15,6 +15,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
+import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
 
 // 用户登录
@@ -34,7 +35,6 @@ public class UserLoginController {
     }
 
 
-
     // 跳转到注册页面
     @RequestMapping("/logon")
     public String goToLogon() {
@@ -44,8 +44,9 @@ public class UserLoginController {
 
     // 跳转到登录界面
     @RequestMapping("/login")
-    public String login() {
+    public String login(HttpServletRequest request) {
         System.out.print("前往登录界面");
+        System.out.println("服务器地址"+request.getServerName()+"端口号"+request.getServerPort()+"上下文路径/项目文件夹的文件名"+request.getContextPath());
         return "login";
     }
 

@@ -3,13 +3,20 @@
 <head>
     <title>个人主页</title>
     <link rel="stylesheet" href="/static/layui/css/layui.css">
-    <script src="/static/js/jquery-3.4.1.js"></script>
+<%--    <script src="/static/js/jquery-3.4.1.js"></script>--%>
     <script src="/static/layui/layui.js"></script>
-    <script src="/static/bootstrap-3.3.7/js/bootstrap.js"></script>
-    <link rel="stylesheet" href="/static/bootstrap-3.3.7/css/bootstrap.css">
+<%--    <script src="/static/bootstrap-3.3.7/js/bootstrap.js"></script>--%>
+<%--    <link rel="stylesheet" href="/static/bootstrap-3.3.7/css/bootstrap.css">--%>
+
+    <%--    cnd--%>
+    <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
 <%--    发表动态的样式--%>
 <%--    <link rel="stylesheet" href="/static/css/user-dynamic.css">--%>
-
 
 <%--    安装 axios--%>
 <%--    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>--%>
@@ -234,12 +241,12 @@
 
 
 <script>
-
+    // 初始化之后 要做的事
     window.onload = function () {
         dynamicAjax();
     }
 
-    function dynamicAjax() {
+    function dynamicAjax() {    // 显示动态的页面
         $.ajax({
             method:"POST",
             url:"/user/dynamic",
@@ -251,6 +258,24 @@
         }).fail(function () {
             console.log("异步请求失败")
         })
+    }
+
+    function voidesAjax() { // 显示视频的页面
+        $.ajax({
+            url:"",
+            method:"POST",
+            data:{
+                userId:${user.userId}
+            }
+        }).done(function (result) {
+            $("#contentdic").html(result);
+        }).fail(function () {
+            alert("异步失败")
+        })
+    }
+
+    function friendAjax() { // 显示添加好友的页面
+
     }
 </script>
 

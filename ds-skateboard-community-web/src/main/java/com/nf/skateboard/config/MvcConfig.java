@@ -5,6 +5,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Import;
+import org.springframework.stereotype.Component;
 import org.springframework.web.servlet.config.annotation.*;
 import org.springframework.web.servlet.view.InternalResourceViewResolver;
 
@@ -49,6 +50,13 @@ public class MvcConfig implements WebMvcConfigurer {
         // 拦截器注册类
         InterceptorRegistration re = registry.addInterceptor(loginInterceptor);
         re.addPathPatterns("/**");
-        re.excludePathPatterns("/user/login","/user/userLogin","/user/logon");
+        re.excludePathPatterns("/user/login","/user/userLogin","/user/logon","/ws","/web/**","/websocket/**");
+    }
+
+    // 跨域
+    public void addCorsMappings(CorsRegistry registry) {
+//        registry.addMapping("/**")
+//                .allowedOrigins("http://127.0.0:8848")
+//                .allowedMethods("GET","POST","OPTIONS");
     }
 }

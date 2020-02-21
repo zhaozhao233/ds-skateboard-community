@@ -4,6 +4,7 @@ import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.socket.server.standard.SpringConfigurator;
 
 import javax.websocket.*;
 import javax.websocket.server.PathParam;
@@ -11,24 +12,23 @@ import javax.websocket.server.ServerEndpoint;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 
-@RestController
-@CrossOrigin(value = {"ws://127.0.0.1:8848"},
-        methods = {
-                RequestMethod.DELETE,
-                RequestMethod.PUT,
-                RequestMethod.POST,
-                RequestMethod.GET,
-                RequestMethod.OPTIONS,
-                RequestMethod.HEAD
-})
-@ServerEndpoint("/websocket/{myWebsocket}")
+//@RestController
+//@CrossOrigin(value = {"ws://127.0.0.1:8848"},
+//        methods = {
+//                RequestMethod.DELETE,
+//                RequestMethod.PUT,
+//                RequestMethod.POST,
+//                RequestMethod.GET,
+//                RequestMethod.OPTIONS,
+//                RequestMethod.HEAD
+//})
+@ServerEndpoint(value = "/websocket/{myWebsocket}",configurator = SpringConfigurator.class)
 public class WebsocketController {
 
     public static Map<String,Session> clients =
             new ConcurrentHashMap<String, Session>();
 
 
-    public
 
     /**
      * 打开连接时触发

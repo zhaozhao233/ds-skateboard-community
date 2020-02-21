@@ -10,10 +10,17 @@
 <head>
     <title>skateboard登录</title>
     <link rel="stylesheet" href="/static/layui/css/layui.css">
-    <script src="/static/js/jquery-3.4.1.js"></script>
+<%--    <script src="/static/js/jquery-3.4.1.js"></script>--%>
     <script src="/static/layui/layui.js"></script>
-    <script src="/static/bootstrap-3.3.7/js/bootstrap.js"></script>
-    <link rel="stylesheet" href="/static/bootstrap-3.3.7/css/bootstrap.css">
+<%--    <script src="/static/bootstrap-3.3.7/js/bootstrap.js"></script>--%>
+<%--    <link rel="stylesheet" href="/static/bootstrap-3.3.7/css/bootstrap.css">--%>
+
+    <%--    cnd--%>
+    <script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+    <!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
 </head>
 <body>
@@ -78,12 +85,7 @@
         <%--        左边的div--%>
         <div style="background-color: blueviolet;width: 50%;">
             <div style="margin: auto;width: 80%;background-color: purple">
-                123123123123123123123123123123
-                123123123123123123123123123123
-                123123123123123123123123123123
-                123123123123123123123123123123
-                123123123123123123123123123123
-                123123123123123123123123123123
+
             </div>
         </div>
         <%--        左边的div--%>
