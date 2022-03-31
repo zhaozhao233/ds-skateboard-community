@@ -21,7 +21,7 @@
             <dependency>
                 <groupId>org.springframework</groupId>
                 <artifactId>spring-webmvc</artifactId>
-                <version>5.2.0.RELEASE</version>
+                <version>5.3.18</version>
             </dependency>
             <!--可能要使用到 spring-jdbc 里面的一些类-->
             <dependency>
